@@ -1,0 +1,60 @@
+@import "variaveis.css";
+.wrapper{
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 0 26px;  
+}
+
+.topo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.titulo{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.obrigatorio{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.obrigatorio span{
+  color: var(--cor4);
+}
+
+table{
+  border: 2px solid var(--cor-neutra3);
+  border-collapse:separate;
+  border-radius: var(--border-radius);
+}
+
+th{
+  padding: 5px;
+  font-weight: bold;
+  border-bottom: 2px solid var(--cor-neutra3);
+}
+
+th:not(:first-child){
+  border-left: 2px solid var(--cor-neutra3);
+}
+
+td{
+  padding: 10px;
+}
+
+
+
+tbody tr:nth-child(2n+1){
+  background-color: var(--cor-neutra);
+}
+tbody tr:nth-child(2n){
+  background-color: var(--cor-neutra2);
+}

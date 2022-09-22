@@ -1,0 +1,21 @@
+@import "variaveis.css";
+@import "padrao.css";
+
+.acoes{
+  display: flex;
+  gap: 10px;
+  border-left: 2px solid var(--cor-neutra3);
+}
+
+.acao{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.editar{
+  color: var(--cor2);
+}
+
+.deletar{
+  color: var(--cor4);
+}
