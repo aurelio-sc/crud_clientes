@@ -1,4 +1,7 @@
 @import "variaveis.css";
+*{
+  font-family: sans-serif !important;
+}
 .wrapper{
   width: fit-content;
   display: flex;
@@ -57,4 +60,53 @@ tbody tr:nth-child(2n+1){
 }
 tbody tr:nth-child(2n){
   background-color: var(--cor-neutra2);
+}
+
+.botao{
+  background-color:  var(--cor1);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--cor-neutra2);
+  padding: var(--padding);
+  font-weight: bold;
+}
+
+.botao:hover{
+  color: #FFF;
+  background-color: var(--cor2);
+}
+
+.botao:active{
+  color: #FFF;
+  background-color: var(--cor3);
+}
+
+.erro{
+  color: var(--cor4);
+  font-weight: bold;
+}
+
+.sucesso{
+  color: var(--cor3);
+  font-weight: bold;
+}
+
+.voltar{
+  all: unset;
+  color: var(--cor3);
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid var(--cor3);
+  width: fit-content;
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  background-color: var(--cor-neutra);
+}
+
+.voltar:hover{
+  background-color: var(--cor-neutra2);
+}
+
+.voltar:active{
+  background-color: var(--cor-neutra3);
+  color: #FFF;
 }

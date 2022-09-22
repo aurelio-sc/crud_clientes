@@ -69,6 +69,7 @@ $num_clientes = $query_clientes->num_rows;
         } ?>
       </tbody>
     </table>
+    <a class="voltar" href="cadastrar_cliente.php">Voltar para o cadastro</a>
   </div>
 </body>
 

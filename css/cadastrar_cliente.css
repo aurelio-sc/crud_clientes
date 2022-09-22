@@ -27,30 +27,3 @@
   margin-bottom: 0;
 }
 
-.botao{
-  background-color:  var(--cor1);
-  border-radius: var(--border-radius);
-  border: 1px solid var(--cor-neutra2);
-  padding: var(--padding);
-  font-weight: bold;
-}
-
-.botao:hover{
-  color: #FFF;
-  background-color: var(--cor2);
-}
-
-.botao:active{
-  color: #FFF;
-  background-color: var(--cor3);
-}
-
-.erro{
-  color: var(--cor4);
-  font-weight: bold;
-}
-
-.sucesso{
-  color: var(--cor3);
-  font-weight: bold;
-}
