@@ -1,5 +1,6 @@
 <?php
 include('conexao.php');
+include('helpers.php');
 $sql_clientes = "SELECT * FROM clientes";
 $query_clientes = $mysqli->query($sql_clientes) or die($mysqli->error);
 $num_clientes = $query_clientes->num_rows;
@@ -41,15 +42,11 @@ $num_clientes = $query_clientes->num_rows;
           while ($cliente = $query_clientes->fetch_assoc()) {
             $telefone = 'Não cadastrado';
             if (!empty($cliente['telefone'])) {
-              $ddd = substr($cliente['telefone'], 0, 2);
-              $tel_1 = substr($cliente['telefone'], 2, 5);
-              $tel_2 = substr($cliente['telefone'], 7, 4);
-              $telefone = "($ddd) $tel_1-$tel_2";
+              $telefone = formatar_telefone(($cliente['telefone']));
             }
             $nascimento = 'Não cadastrado';
             if (!empty($cliente['nascimento'])) {
-              $pedacos = explode('-', $cliente['nascimento']);
-              $nascimento = implode('/', array_reverse($pedacos));
+              $nascimento = formatar_data($cliente['nascimento']);
             }
             $data_cadastro = date('d/m/Y', strtotime($cliente['data']))
           ?>
@@ -69,7 +66,7 @@ $num_clientes = $query_clientes->num_rows;
         } ?>
       </tbody>
     </table>
-    <a class="voltar" href="cadastrar_cliente.php">Voltar para o cadastro</a>
+    <a class="voltar" href="cadastrar_cliente.php">Ir para o cadastro</a>
   </div>
 </body>
 

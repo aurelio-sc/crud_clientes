@@ -56,7 +56,7 @@ if (count($_POST) > 0) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/cadastrar_cliente.css">
+  <link rel="stylesheet" href="css/cadastrar_editar_cliente.css">
   <title>Cadastrar Cliente</title>
 </head>
 
@@ -93,7 +93,7 @@ if (count($_POST) > 0) {
     </form>
     <?php if (isset($msg_erro) && $msg_erro != false) echo "<p class='erro'>$msg_erro</p>" ?>
     <?php if (isset($msg_sucesso) && $msg_sucesso != false) echo "<p class='sucesso'>$msg_sucesso</p>" ?>
-    <a class="voltar" href="clientes.php">Voltar para a lista</a>
+    <a class="voltar" href="clientes.php">Ir para a lista</a>
   </div>
 </body>
 
