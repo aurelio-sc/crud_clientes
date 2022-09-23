@@ -1,5 +1,5 @@
 # crud_clientes
-<h1>CRUD de cadastro de clientes<h1>
+<h1>CRUD de cadastro de clientes</h1>
 
 <ol>Principais funcionalidades:<br><br>
 <li>Cadastro de clientes em banco de dados com validação do formulário (CREATE)</li>
