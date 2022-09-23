@@ -11,13 +11,17 @@
 </ol>
 
 <h2>Página de cadastro</h2>
-![cadastrar_cliente](img/cadastrar_cliente.jpg)
-<br><br>
+
+![cadastrar_cliente](img/cadastrar_cliente.png)
+
 <h2>Página de exibição</h2>
-![clientes](https://user-images.githubusercontent.com/95449811/191979678-308e6eea-2051-4370-800b-d3c5d62201b5.jpg)
-<br><br>
+
+![clientes](img/clientes.png)
+
 <h2>Página de edição</h2>
-![editar_cliente](https://user-images.githubusercontent.com/95449811/191979879-ca29cdd1-c1cb-4483-abc9-84b660a4f8df.jpg)
-<br><br>
+
+![editar_cliente](img/editar_cliente.png)
+
 <h2>Página de exclusão</h2>
-![excluir_cliente](https://user-images.githubusercontent.com/95449811/191979974-ec67951c-e6b9-4ce5-b792-33382a1044d7.jpg)
+
+![excluir_cliente](img/excluir_cliente.png)
