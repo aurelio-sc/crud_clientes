@@ -63,6 +63,9 @@ tbody tr:nth-child(2n){
 }
 
 .botao{
+  all: unset;
+  text-align: center;
+  cursor: pointer;
   background-color:  var(--cor1);
   border-radius: var(--border-radius);
   border: 1px solid var(--cor-neutra2);
@@ -78,6 +81,18 @@ tbody tr:nth-child(2n){
 .botao:active{
   color: #FFF;
   background-color: var(--cor3);
+}
+
+.secundario{
+  background-color:  var(--cor5);
+}
+
+.secundario:hover{
+  background-color:  var(--cor4);
+}
+
+.secundario:active{
+  background-color:  var(--cor6);
 }
 
 .erro{

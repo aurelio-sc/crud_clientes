@@ -1,0 +1,24 @@
+@import "variaveis.css";
+@import "padrao.css";
+
+.confirmar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.advertencia span{
+  color: var(--cor4);
+  font-weight: bold;
+}
+
+.opcoes{
+  width: fit-content;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 auto;
+}
