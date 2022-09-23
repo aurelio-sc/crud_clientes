@@ -11,7 +11,7 @@
 </ol>
 
 <h2>Página de cadastro</h2>
-![cadastrar_cliente](https://user-images.githubusercontent.com/95449811/191979496-72570a90-9617-42a0-8dcc-c325be29860c.jpg)
+![cadastrar_cliente](img/cadastrar_cliente.jpg)
 <br><br>
 <h2>Página de exibição</h2>
 ![clientes](https://user-images.githubusercontent.com/95449811/191979678-308e6eea-2051-4370-800b-d3c5d62201b5.jpg)
